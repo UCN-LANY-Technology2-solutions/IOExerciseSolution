@@ -19,7 +19,7 @@ public class ClassicSolution {
 			while (reader.hasNextLine()) {
 
 				String data = reader.nextLine();
-				writer.write("[" + counter++ + "]: " + data + "\n\n");
+				writer.write("[" + counter++ + "]: " + data + "\n");
 			}
 
 			reader.close();
